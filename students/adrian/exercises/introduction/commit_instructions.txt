@@ -1,0 +1,8 @@
+1. Make coding changes
+2. Stage all changes for commit
+(in highest directory) git add .
+3. Create a commit
+git commit -m "I became a programmer"
+4. Push to the remote cloud repository
+git push origin
+
