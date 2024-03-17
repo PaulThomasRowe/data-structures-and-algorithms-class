@@ -16,3 +16,5 @@ def fizzbuzz(n):
 #Test the function with numbers from 1 to 100
 fizzbuzz(100)
 
+def fizzbuzz():
+
