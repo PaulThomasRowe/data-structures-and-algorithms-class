@@ -2,7 +2,7 @@ class Solution:
     def isCorrect(self, s: str) -> bool:
         print(f"Provided string: {s}")
         stack = []
-        parentheses_map = {")":"(", "}":"{", "]":"["} #
+        parentheses_map = {")":"(", "}":"{", "]":"["} #pairs of characters that represent valid parentheses
         
         for char in s: #iterate through every character in string of parentheses
             print(f"Evaluating char {char} with stack {stack}")
